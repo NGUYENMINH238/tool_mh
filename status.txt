@@ -1,1 +1,1 @@
-Tool_test_no_key: hahahaha
+Tool_test_no_key: delete
