@@ -16,7 +16,7 @@ def get_code():
         return "INVALID CODE", 403
 
     try:
-        with open("/login.py", "r", encoding="utf-8") as f:
+        with open("/etc/secrets/login.py", "r", encoding="utf-8") as f:
             return f.read()
     except Exception as e:
         return f"ERROR: {e}", 500
