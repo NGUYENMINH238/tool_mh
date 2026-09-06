@@ -1,1 +1,1 @@
-Tool_test_no_key: on
+Tool_test_no_key: off
